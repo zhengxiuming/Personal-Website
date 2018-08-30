@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+  font-size: 100%;
+  color: #212121;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+  text-decoration: none;
+  transition: .3s all ease;
+}
+
+html,body{
+  font-size: 1em;
+  font-family:Microsoft YaHei
+}
+* {
+  font-family:'PingFangSC-Sold','Microsoft YaHei',"hiragino sans gb",'黑体','宋体',Arial,Lucida Grande,Tahoma,sans-serif
+}
+.btn {
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  background-color: #89d9d0;
+  border-color: #89d9d0;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+.btn:hover{
+  background-color: #6cd0c4;
+  border-color: #62cdc1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+@keyframes arrow-repeat {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(15px);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+@media screen and (min-width:576px) {
+  .container{
+    max-width: 540px;
+  }
+}
+@media screen and (min-width:768px) {
+  .container{
+    max-width: 720px;
+  }
+}
+@media screen and (min-width:992px) {
+  .container{
+    max-width: 960px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .container{
+    max-width: 1140px;
+  }
+}
